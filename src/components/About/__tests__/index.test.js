@@ -8,8 +8,9 @@ afterEach(cleanup);
 describe('About component', () => {
     // First Test
     it('renders', () => {
-        render(<About />);
-    });
+        render(<About
+        />);
+      })
     // Second Test
     it('matches snapshot DOM node structure', () => {
         const { asFragment } = render(<About />);
